@@ -8,9 +8,13 @@ public class Temperatura {
 		this.temperatura = temperatura;
 	}
 	
-	public String mensajeTemperatura() {
-		int valorF = (temperatura*9/5)+32;
-		String mensaje = "La temperatura en fahrenheit es: "+valorF;
+	public String mensajeTemperaturaCel(float tempe) {
+		String mensaje = "La temperatura en celsius es: "+tempe;
+		return mensaje;
+	}
+	
+	public String mensajeTemperaturaFar(float tempe) {
+		String mensaje = "La temperatura en fahrenheit es: "+tempe;
 		return mensaje;
 	}
 	
