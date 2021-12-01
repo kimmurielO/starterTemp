@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "temperatura.mensaje",
+      "type": "starter.TemperaturaProperties",
+      "sourceType": "starter.TemperaturaProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "temperatura.mensaje.temperatura",
+      "type": "java.lang.Integer",
+      "sourceType": "starter.TemperaturaProperties",
+      "defaultValue": 20
+    }
+  ],
+  "hints": []
+}
