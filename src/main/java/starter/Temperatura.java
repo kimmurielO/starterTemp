@@ -8,7 +8,7 @@ public class Temperatura {
 		this.temperatura = temperatura;
 	}
 	
-	public String mensajeSaludo() {
+	public String mensajeTemperatura() {
 		int valorF = (temperatura*9/5)+32;
 		String mensaje = "La temperatura en fahrenheit es: "+valorF;
 		return mensaje;
